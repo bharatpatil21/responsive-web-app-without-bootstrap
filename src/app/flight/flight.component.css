@@ -1,0 +1,184 @@
+.container {
+  margin: 10px 150px;
+}
+
+/* #sidebar {
+  display: inline-block;
+  vertical-align: top;
+  height: 100%;
+  width: 27.5%;
+}
+
+#content {
+  display: inline-block;
+  vertical-align: top;
+  height: 100%;
+  width: 72.2%;
+  overflow: auto;
+}
+
+main {
+  min-width: 320px;
+  max-width: 800px;
+  padding: 15px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+section {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #ddd;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label.tab-menu {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #bbb;
+  border: 1px solid transparent;
+}
+
+label.tab-menu:before {
+  font-family: fontawesome;
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+label.tab-menu[for*='1']:before {
+  content: '\f1cb';
+}
+
+label.tab-menu[for*='2']:before {
+  content: '\f17d';
+}
+
+label.tab-menu:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+input:checked+label.tab-menu {
+  color: #555;
+  border: 1px solid #ddd;
+  border-top: 2px solid orange;
+  border-bottom: 1px solid #fff;
+}
+
+#tab1:checked~#content1,
+#tab2:checked~#content2 {
+  display: block;
+  border: 1px solid #dddddd;
+  padding: 20px 35px;
+}
+
+@media screen and (max-width: 650px) {
+  label {
+    font-size: 0;
+  }
+
+  label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  label {
+    padding: 15px;
+  }
+}
+
+.departureDate {
+  font-size: 14px;
+  color: #5264AE;
+  font-weight: bolder;
+}
+
+
+.content-header {
+  background-color: #9b59b6;
+  height: 50px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.content-name {
+  width: 80%;
+  display: inline-block;
+  padding-top: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+.content-date {
+  width: 30%;
+  display: initial;
+  position: absolute;
+  padding-top: inherit;
+  color: white;
+}
+
+.flight {
+  width: 93%;
+  margin: 0px 20px;
+  border: 1px solid #dad6d6eb;
+  height: 140px;
+  padding: 10px;
+  box-shadow: 2px 2px 10px 1px #cccaca;
+  cursor: pointer;
+}
+
+.flight:hover {
+  box-shadow: 5px 5px 10px 1px #cccaca;
+}
+
+.flight-details {
+  display: inline-block;
+  width: 75%;
+}
+
+.flight-book {
+  display: inline;
+}
+
+.flight-prize {
+  font-size: 25px;
+  width: 100%;
+  margin-bottom: 13px;
+}
+
+.flight-detail {
+  width: 100%;
+  line-height: 25px;
+}
+
+.oneway-flight {
+  width: 50%;
+  display: inline-block;
+}
+
+.return-flight {
+  display: inline-block;
+}
+
+.flight-no {}
+
+.flight-to-form {
+  font-weight: 600;
+}
+
+.depart-time {
+  font-weight: 600;
+}
+
+.arrive-time {
+  font-weight: 600;
+} */

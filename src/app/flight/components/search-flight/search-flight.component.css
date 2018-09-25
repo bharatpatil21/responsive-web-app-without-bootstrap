@@ -1,0 +1,88 @@
+main {
+  min-width: 100%;
+  margin: 0 auto;
+  background: #fff;
+}
+
+section {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #ddd;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label.tab-menu {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #bbb;
+  border: 1px solid transparent;
+}
+
+label.tab-menu:before {
+  font-family: fontawesome;
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+label.tab-menu[for*='1']:before {
+  content: '\f1cb';
+}
+
+label.tab-menu[for*='2']:before {
+  content: '\f17d';
+}
+
+label.tab-menu:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+input:checked+label.tab-menu {
+  color: #555;
+  border: 1px solid #ddd;
+  border-top: 2px solid orange;
+  border-bottom: 1px solid #fff;
+}
+
+#tab1:checked~#content1,
+#tab2:checked~#content2 {
+  display: block;
+  border: 1px solid #dddddd;
+  padding: 35px 35px;
+}
+
+.departureDate {
+  font-size: 14px;
+  color: #5264AE;
+  font-weight: bolder;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  label.tab-menu {
+    padding: 15px 15px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  label.tab-menu {
+    padding: 10px 10px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
